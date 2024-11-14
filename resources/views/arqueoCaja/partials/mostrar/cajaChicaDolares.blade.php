@@ -1,4 +1,4 @@
-<div class="grid grid-cols-2 w-full border border-gray-300 rounded-lg overflow-hidden">
+<div class="grid grid-cols-2 w-full border border-gray-300 rounded-lg overflow-hidden bg-white">
     <!-- Encabezado de la tabla -->
     <div class="bg-gray-200 p-2 font-semibold text-center border border-gray-300">Denominaciones</div>
     <div class="bg-gray-200 p-2 font-semibold text-center border border-gray-300">Caja chica</div>

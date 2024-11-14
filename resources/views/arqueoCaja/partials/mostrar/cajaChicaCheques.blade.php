@@ -3,7 +3,7 @@
 
 </div>
 
-<div class="grid grid-cols-3 w-full border border-gray-300 rounded-lg overflow-hidden">
+<div class="grid grid-cols-3 w-full border border-gray-300 rounded-lg overflow-hidden bg-white">
     <!-- Encabezado de la tabla -->
     <div class="bg-gray-200 p-2 font-semibold text-center border border-gray-300">Numero de Cheque</div>
     <div class="bg-gray-200 p-2 font-semibold text-center border border-gray-300">Nombre y Apellido</div>
