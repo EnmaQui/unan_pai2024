@@ -20,7 +20,7 @@ return new class extends Migration
             $table->string('numero_inss', 255);
             $table->integer('antiguedad');
             $table->decimal('salario_bruto', 10, 2);
-            $table->boolean('activo');
+            $table->boolean('activo')->default(1);
             $table->unsignedBigInteger('departamentocargo_id');
             $table->foreign('departamentocargo_id')->references('id')->on('departamentocargo')->onDelete('cascade')->onUpdate('cascade');
             $table->timestamps();
