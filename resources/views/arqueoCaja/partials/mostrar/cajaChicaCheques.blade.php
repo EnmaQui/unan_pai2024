@@ -6,7 +6,7 @@
 <div class="grid grid-cols-3 w-full border border-gray-300 rounded-lg overflow-hidden">
     <!-- Encabezado de la tabla -->
     <div class="bg-gray-200 p-2 font-semibold text-center border border-gray-300">Numero de Cheque</div>
-    <div class="bg-gray-200 p-2 font-semibold text-center border border-gray-300">Banco</div>
+    <div class="bg-gray-200 p-2 font-semibold text-center border border-gray-300">Nombre y Apellido</div>
     <div class="bg-gray-200 p-2 font-semibold text-center border border-gray-300">Monto</div>
 
     <!-- Filas de la tabla -->
