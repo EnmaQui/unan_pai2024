@@ -7,7 +7,7 @@
 
 <!-- Main modal -->
 <div id="static-modal" data-modal-backdrop="static" tabindex="-1" aria-hidden="true" class="hidden fixed inset-0 z-50 flex items-center justify-center w-full h-full">
-    <div class="relative w-full max-w-2xl h-[80vh] bg-white rounded-lg shadow dark:bg-gray-700">
+    <div class="relative w-full max-w-2xl h-[90vh] bg-white rounded-lg shadow dark:bg-gray-700">
         <!-- Modal content -->
         <div class="flex flex-col h-full">
             <!-- Modal header -->
