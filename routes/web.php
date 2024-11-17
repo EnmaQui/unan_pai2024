@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ArqueoCajaController;
+use App\Http\Controllers\ConsiliacionController;
 use App\Http\Controllers\DepartamentoController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Auth\SesionControlador;
@@ -94,3 +95,5 @@ Route::delete('empleados/{empresa_id}/{empleado}', [EmpleadosController::class, 
 
 
 Route::get('/arqueo-caja/index', [ArqueoCajaController::class, 'index'])->name('arqueoCaja.index');
+
+Route::get('/arqueo-caja/consiliacion/{empresa_id}', [ConsiliacionController::class, 'index'])->name('consiliacion.index');

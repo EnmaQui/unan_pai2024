@@ -1,5 +1,5 @@
 <div class="grid grid-cols-1  gap-5">
-    <div class=" w-full bg-slate-600 p-5 rounded-lg text-white">
+    <div class=" w-full bg-black p-5 rounded-lg text-white">
         <p class="text-2xl font-semibold">Total: C$ 00.00</p>
     </div>
 

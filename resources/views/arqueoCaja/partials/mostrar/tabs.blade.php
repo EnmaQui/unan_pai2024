@@ -37,6 +37,14 @@
             <div>
                 @include('arqueoCaja.partials.entrada.cajaChicaEntrada')
             </div>
+            <div>
+                <a href="{{route('consiliacion.index', ['empresa_id' => $empresa->id])}}">
+                    <button>
+                        Consiliacion Bancaria
+                    </button>
+                </a>
+                
+            </div>
         </div>
 
 
