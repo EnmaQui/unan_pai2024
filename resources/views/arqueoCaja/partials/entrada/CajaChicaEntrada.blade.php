@@ -1,5 +1,3 @@
-
-
 <!-- Modal toggle -->
 <button data-modal-target="static-modal" data-modal-toggle="static-modal" class="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
   Toggle modal
@@ -19,9 +17,9 @@
                         type="radio"
                         name="transaccion"
                         value="ingreso"
-                        class="w-4 h-4 text-green-600 bg-gray-100 border-gray-300 focus:ring-green-500 focus:ring-2"
+                        class="w-4 h-4 text-green-600 bg-gray-100 border-gray-300 focus:ring-green-500 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"
                         />
-                        <span class="text-gray-700">Ingreso</span>
+                        <span class="text-gray-700 dark:text-gray-200">Ingreso</span>
                     </label>
                     
                     <!-- Opción de egreso -->
@@ -30,9 +28,9 @@
                         type="radio"
                         name="transaccion"
                         value="egreso"
-                        class="w-4 h-4 text-red-600 bg-gray-100 border-gray-300 focus:ring-red-500 focus:ring-2"
+                        class="w-4 h-4 text-red-600 bg-gray-100 border-gray-300 focus:ring-red-500 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"
                         />
-                        <span class="text-gray-700">Egreso</span>
+                        <span class="text-gray-700 dark:text-gray-200">Egreso</span>
                     </label>
                 </div>
 
@@ -44,7 +42,7 @@
                 </button>
             </div>
             <!-- Modal body -->
-            <div class="p-4 md:p-5 overflow-y-auto flex-1">
+            <div class="p-4 md:p-5 overflow-y-auto flex-1 dark:text-gray-200">
                 @include('arqueoCaja.partials.entrada.tabs')
             </div>  
             <!-- Modal footer -->
@@ -69,5 +67,3 @@
         </div>
     </div>
 </div>
-
-
